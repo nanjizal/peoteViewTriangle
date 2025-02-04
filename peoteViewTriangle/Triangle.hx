@@ -1,4 +1,3 @@
-
 package peoteViewTriangle;
 
 import peote.view.Color;
@@ -6,8 +5,9 @@ import peote.view.PeoteGL;
 import peote.view.PeoteGL.GLProgram;
 import peote.view.intern.GLBufferPointer;
 import peote.view.intern.BufferBytes;
+import peoteViewTriangle.TriangleDisplay;
 
-@:allow(TriangleDisplay)
+@:allow(peoteViewTriangle.TriangleDisplay)
 class Triangle 
 {	
 	static var attributes = ["vec2 aPos", "vec4 aColor"];
