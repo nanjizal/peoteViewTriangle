@@ -19,7 +19,7 @@ import peote.view.intern.UniformBufferView;
 import peote.view.intern.UniformBufferDisplay;
 import peote.view.intern.GLTool;
 
-import peoteViewTriangle as BufferElement;
+import peoteViewTriangle.Triangle as BufferElement;
 
 /*
     o-o    o-o  o-o-o  o-o
